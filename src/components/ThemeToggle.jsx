@@ -58,7 +58,7 @@ export default function ThemeToggle({ className = "", size = 18 }) {
       className={`inline-flex items-center justify-center rounded-md p-2 focus:outline-none focus:ring-2 focus:ring-offset-2 ${className}`}
       title={theme === "dark" ? "Switch to light mode" : "Switch to dark mode"}
     >
-      {theme === "dark" ? <Sun size={size} /> : <Moon size={size} />}
+      {theme === "dark" ? <Sun size={size}  /> : <Moon size={size} className="text-white"/>}
     </button>
   );
 }

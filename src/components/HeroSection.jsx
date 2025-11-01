@@ -5,7 +5,7 @@ import { ArrowRight, Download } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { useNavigate } from 'react-router-dom';
 import DarkVeil from './ui/DarkVeil';
-
+import homeimg from '../assets/home.jpeg';
 
 const HeroSection = () => {
   const navigate = useNavigate();
@@ -26,19 +26,19 @@ const HeroSection = () => {
           animate={{ opacity: 1, x: 0 }}
           transition={{ duration: 0.8 }}
         >
-          <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight mb-6">
+          <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight mb-6 text-white">
             Hi, I'm <span className="gradient-text">Naveed</span>
             <br />
             <span className="text-3xl md:text-4xl lg:text-5xl">Front-End Developer</span>
           </h1>
 
-          <p className="text-lg text-gray-600 dark:text-gray-400 mb-8 max-w-lg">
+          <p className="text-lg text-gray-400 mb-8 max-w-lg">
             I build exceptional digital experiences that are fast, accessible,
             visually appealing, and responsive. Let's turn your vision into reality.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4">
-            <Button size="lg" onClick={() => navigate("/projects")} className="group">
+            <Button size="lg" onClick={() => navigate("/projects")} className="group text-black">
               View My Work
               <ArrowRight
                 size={16}
@@ -63,11 +63,11 @@ const HeroSection = () => {
           transition={{ duration: 0.8, delay: 0.2 }}
           className="relative"
         >
-          <div className="relative rounded-2xl overflow-hidden border  dark:border-gray-800 shadow-xl">
+          <div className="relative rounded-2xl overflow-hidden border border-gray-800 shadow-xl">
             <img
               alt="John Doe portrait"
               className="w-full h-[500px] object-cover"
-              src="https://images.unsplash.com/photo-1507238691740-187a5b1d37b8"
+              src={homeimg}
             />
 
             <motion.div

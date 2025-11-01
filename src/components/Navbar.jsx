@@ -34,9 +34,9 @@ const Navbar = () => {
   
   return (
     <header 
-  className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 
+  className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 mx-10
     ${scrolled 
-      ? 'bg-white/80 dark:bg-gray-900/80 backdrop-blur-md shadow-sm rounded-b-3xl py-4' 
+      ? 'bg-white/80 dark:bg-gray-900/80 backdrop-blur-md shadow-md rounded-b-[900px] py-4' 
       : 'backdrop-blur-md py-4'
     }`}
 >
@@ -66,7 +66,7 @@ const Navbar = () => {
                 <NavLink 
                   to={link.path} 
                   className={({ isActive }) => 
-                    `nav-link ${isActive ? 'active text-primary' : 'text-gray-700 dark:text-gray-300'}`
+                    `nav-link ${isActive ? 'active text-primary' : 'text-gray-300'}`
                   }
                 >
                   {link.name}
