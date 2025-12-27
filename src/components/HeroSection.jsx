@@ -13,9 +13,9 @@ const HeroSection = () => {
   return (
 <section className="relative pt-32 pb-20 md:pt-40 md:pb-28 hero-gradient overflow-hidden">
   {/* Dark veil background */}
-  <div className="absolute inset-0 z-0">
+  {/* <div className="absolute inset-0 z-0">
     <DarkVeil />
-  </div>
+  </div> */}
 
   <div className="container relative z-10 mx-auto px-4 sm:px-6 lg:px-8">
     <div style={{ width: '100%', height: '600px', position: 'relative' }}>
@@ -95,17 +95,17 @@ const HeroSection = () => {
           className="grid grid-cols-2 md:grid-cols-4 gap-8 py-8 border-t border-b border-gray-200 dark:border-gray-800"
         >
           <div className="text-center">
-            <h3 className="text-3xl md:text-4xl font-bold gradient-text">5+</h3>
+            <h3 className="text-3xl md:text-4xl font-bold gradient-text">1+</h3>
             <p className="text-gray-600 dark:text-gray-400 mt-2">Years Experience</p>
           </div>
           
           <div className="text-center">
-            <h3 className="text-3xl md:text-4xl font-bold gradient-text">50+</h3>
+            <h3 className="text-3xl md:text-4xl font-bold gradient-text">20+</h3>
             <p className="text-gray-600 dark:text-gray-400 mt-2">Projects Completed</p>
           </div>
           
           <div className="text-center">
-            <h3 className="text-3xl md:text-4xl font-bold gradient-text">20+</h3>
+            <h3 className="text-3xl md:text-4xl font-bold gradient-text">10+</h3>
             <p className="text-gray-600 dark:text-gray-400 mt-2">Happy Clients</p>
           </div>
           

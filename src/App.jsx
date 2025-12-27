@@ -8,6 +8,9 @@ import Home from '@/pages/Home';
 import Projects from '@/pages/Projects';
 import About from '@/pages/About';
 import Contact from '@/pages/Contact';
+import Background from './components/Background';
+
+
 
 function App() {
   const location = useLocation();
@@ -33,7 +36,10 @@ function App() {
   }, [location.pathname]);
   
   return (
+    
     <div className="min-h-screen flex flex-col">
+      <Background />
+
       <Navbar />
       <main className="flex-grow">
         <AnimatePresence mode="wait">
