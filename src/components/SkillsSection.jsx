@@ -7,24 +7,24 @@ import SkillCard from '@/components/SkillCard';
 const SkillsSection = () => {
   const skillsCategories = [
     {
-      title: 'Frontend Development',
+      title: 'Web Development',
       icon: <Layout className="h-5 w-5 text-blue-500" />,
-      skills: ['HTML5', 'CSS3', 'JavaScript', 'React', 'Vue.js', 'Next.js', 'TailwindCSS', 'SASS', 'Responsive Design']
+      skills: ['HTML', 'CSS', 'JavaScript', 'React', 'Reactjs', 'Tailwind CSS', 'Nextjs', 'Firebase']
     },
     {
-      title: 'Backend Development',
-      icon: <Database className="h-5 w-5 text-green-500" />,
-      skills: ['Node.js', 'Express', 'Python', 'Django', 'PHP', 'Laravel', 'RESTful APIs', 'GraphQL']
+      title: 'Programming Languages',
+      icon: <Code className="h-5 w-5 text-purple-500" />,
+      skills: ['Python', 'C++ (Basic)', 'JavaScript', 'SQL (Basic)', 'Git']
     },
     {
       title: 'Tools & Technologies',
-      icon: <Code className="h-5 w-5 text-purple-500" />,
-      skills: ['Git', 'GitHub', 'Docker', 'AWS', 'Firebase', 'Vercel', 'Netlify', 'Webpack', 'Vite']
+      icon: <Database className="h-5 w-5 text-green-500" />,
+      skills: ['Jupyter Notebook', 'VS Code', 'GitHub', 'ChatGPT', 'Firebase']
     },
     {
-      title: 'Design & Others',
+      title: 'Areas of Interest',
       icon: <Lightbulb className="h-5 w-5 text-yellow-500" />,
-      skills: ['Figma', 'Adobe XD', 'UI/UX Design', 'Wireframing', 'Prototyping', 'SEO', 'Performance Optimization']
+      skills: ['Mobile App Development', 'Web Development', 'Designing', 'Webpages', 'Artificial Intelligence']
     }
   ];
   

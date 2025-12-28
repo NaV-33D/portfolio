@@ -16,16 +16,10 @@ const Footer = () => {
               Creating beautiful, functional, and user-friendly digital experiences that help businesses grow and succeed.
             </p>
             <div className="flex space-x-4 mt-6">
-              <a href="#" className="text-gray-500 hover:text-primary transition-colors" aria-label="GitHub">
-                <Github size={20} />
-              </a>
-              <a href="#" className="text-gray-500 hover:text-primary transition-colors" aria-label="LinkedIn">
+              <a href="https://linkedin.com/in/naveed-sayed" target="_blank" rel="noopener noreferrer" className="text-gray-500 hover:text-primary transition-colors" aria-label="LinkedIn">
                 <Linkedin size={20} />
               </a>
-              <a href="#" className="text-gray-500 hover:text-primary transition-colors" aria-label="Twitter">
-                <Twitter size={20} />
-              </a>
-              <a href="mailto:contact@example.com" className="text-gray-500 hover:text-primary transition-colors" aria-label="Email">
+              <a href="mailto:naveedsayed88@gmail.com" className="text-gray-500 hover:text-primary transition-colors" aria-label="Email">
                 <Mail size={20} />
               </a>
             </div>
@@ -61,13 +55,13 @@ const Footer = () => {
             <h4 className="font-semibold text-gray-900 dark:text-gray-100 mb-4">Contact</h4>
             <ul className="space-y-2">
               <li className="text-gray-600 dark:text-gray-400">
-                contact@example.com
+                naveedsayed88@gmail.com
               </li>
               <li className="text-gray-600 dark:text-gray-400">
-                +1 (555) 123-4567
+                +91-9611653160
               </li>
               <li className="text-gray-600 dark:text-gray-400">
-                San Francisco, CA
+                Hubli, Karnataka, India
               </li>
             </ul>
           </div>
@@ -75,7 +69,7 @@ const Footer = () => {
         
         <div className="border-t border-gray-200 dark:border-gray-800 mt-12 pt-8 flex flex-col md:flex-row justify-between items-center">
           <p className="text-gray-600 dark:text-gray-400 text-sm">
-            © {currentYear} Portfolio. All rights reserved.
+            © {currentYear} Ahmed Naveed Sayed. All rights reserved.
           </p>
           <div className="mt-4 md:mt-0 text-sm text-gray-600 dark:text-gray-400">
             <a href="#" className="hover:text-primary transition-colors">Privacy Policy</a>

@@ -1,57 +1,48 @@
 
 export const projectsData = [
   {
-    title: "E-Commerce Platform",
+    title: "AI-powered Learning Platform",
     category: "Web Development",
-    description: "A full-featured e-commerce platform with product management, cart functionality, and secure checkout process.",
-    technologies: ["React", "Node.js", "MongoDB", "Stripe", "Redux"],
+    description: "Developed a personalized learning platform using Next.js, Clerk (authentication), Drizzle ORM, and Neon PostgreSQL. Integrated Gemini API for generating dynamic educational content and summaries, and YouTube Data API to fetch relevant video resources. The platform supports user-specific dashboards, scalable backend architecture, and secure access management for a seamless AI-enhanced learning experience.",
+    technologies: ["Next.js", "Clerk", "Drizzle ORM", "Neon PostgreSQL", "Gemini API", "YouTube Data API"],
     image: "/ecommerce-project.jpg",
-    github: "https://github.com/username/ecommerce-project",
-    demo: "https://ecommerce-project.example.com"
+    github: "https://github.com/username/ai-learning-platform",
+    demo: "http://learn.orbittechhub.com/"
   },
   {
-    title: "Task Management App",
-    category: "Web Application",
-    description: "A productivity app that helps users organize tasks, set priorities, and track progress with intuitive UI.",
-    technologies: ["Vue.js", "Firebase", "TailwindCSS", "Vuex"],
-    image: "/task-management-app.jpg",
-    github: "https://github.com/username/task-management",
-    demo: "https://task-app.example.com"
-  },
-  {
-    title: "Portfolio Website",
-    category: "Web Design",
-    description: "A modern portfolio website for a photographer showcasing their work with beautiful galleries and animations.",
-    technologies: ["React", "Framer Motion", "GSAP", "Styled Components"],
-    image: "/portfolio-project.jpg",
-    github: "https://github.com/username/photographer-portfolio",
-    demo: "https://photographer-portfolio.example.com"
-  },
-  {
-    title: "Real Estate Listing Platform",
+    title: "Real Estate Website",
     category: "Web Development",
-    description: "A property listing website with advanced search filters, map integration, and user authentication.",
-    technologies: ["Next.js", "MongoDB", "Mapbox", "NextAuth.js"],
+    description: "Developed a fully responsive real estate website using React, Vite, and Tailwind CSS. Integrated Web3Forms API for seamless contact form handling, implemented React Toastify for real-time notifications, and designed an intuitive UI optimized for performance.",
+    technologies: ["React", "Vite", "Tailwind CSS", "Web3Forms API", "React Toastify"],
     image: "/real-estate-project.jpg",
-    github: "https://github.com/username/real-estate-platform",
-    demo: "https://realestate.example.com"
+    github: "https://github.com/username/real-estate-website",
+    demo: "http://realstate-website-2025.web.app/"
   },
   {
-    title: "Fitness Tracking App",
-    category: "Mobile Application",
-    description: "A cross-platform mobile app for tracking workouts, nutrition, and fitness progress with data visualization.",
-    technologies: ["React Native", "GraphQL", "Apollo", "D3.js"],
-    image: "/fitness-app.jpg",
-    github: "https://github.com/username/fitness-tracker",
-    demo: "https://fitness-app.example.com"
-  },
-  {
-    title: "Weather Dashboard",
+    title: "Restaurant App",
     category: "Web Application",
-    description: "A weather application with real-time updates, forecasts, and interactive maps showing weather patterns.",
-    technologies: ["JavaScript", "OpenWeatherAPI", "Chart.js", "Leaflet"],
-    image: "/weather-dashboard.jpg",
-    github: "https://github.com/username/weather-dashboard",
-    demo: "https://weather-app.example.com"
+    description: "Built a responsive restaurant app using React and Tailwind CSS. Added AOS for animations, implemented an image slider, and a dark mode toggle for enhanced user experience.",
+    technologies: ["React", "Tailwind CSS", "AOS"],
+    image: "/restaurant-app.jpg",
+    github: "https://github.com/username/restaurant-app",
+    demo: "https://restaurant-website-35de5.web.app/"
+  },
+  {
+    title: "Campus Cruise App",
+    category: "Web Application",
+    description: "Developed a campus bus tracking app featuring real-time SOS location sharing, battery health access, and an intuitive user interface along with IoT. Implemented Web3Forms API for emergency communication without using GPS.",
+    technologies: ["React", "Web3Forms API", "IoT"],
+    image: "/campus-cruise-app.jpg",
+    github: "https://github.com/username/campus-cruise",
+    demo: "https://campuscurise.web.app/"
+  },
+  {
+    title: "MarhabaToken",
+    category: "Web Development",
+    description: "Contributed to the frontend development of a decentralized ecosystem including a Web3 wallet, token swap interface, and RWA tokenization. Implemented responsive UI components, animations, toast notifications, and route handling to enhance user experience and interface reliability.",
+    technologies: ["React", "Web3", "Tailwind CSS"],
+    image: "/marhabatoken.jpg",
+    github: "https://github.com/username/marhabatoken",
+    demo: "https://marhabatoken.com/"
   }
 ];

@@ -9,20 +9,20 @@ const Contact = () => {
     {
       icon: <Mail className="h-6 w-6 text-primary" />,
       title: 'Email',
-      details: 'contact@example.com',
-      link: 'mailto:contact@example.com'
+      details: 'naveedsayed88@gmail.com',
+      link: 'mailto:naveedsayed88@gmail.com'
     },
     {
       icon: <Phone className="h-6 w-6 text-primary" />,
       title: 'Phone',
-      details: '+1 (555) 123-4567',
-      link: 'tel:+15551234567'
+      details: '+91-9611653160',
+      link: 'tel:+919611653160'
     },
     {
       icon: <MapPin className="h-6 w-6 text-primary" />,
       title: 'Location',
-      details: 'San Francisco, CA',
-      link: 'https://maps.google.com/?q=San+Francisco,+CA'
+      details: 'Hubli, Karnataka, India',
+      link: 'https://maps.google.com/?q=Hubli,+Karnataka,+India'
     },
     {
       icon: <Clock className="h-6 w-6 text-primary" />,

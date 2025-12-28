@@ -33,8 +33,7 @@ const HeroSection = () => {
           </h1>
 
           <p className="text-lg text-gray-400 mb-8 max-w-lg">
-            I build exceptional digital experiences that are fast, accessible,
-            visually appealing, and responsive. Let's turn your vision into reality.
+            Engineering graduate and tech enthusiast specializing in building responsive, user-friendly websites and applications. Proficient in modern web technologies with a passion for creating clean, efficient, and visually appealing digital experiences.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4">
@@ -65,7 +64,7 @@ const HeroSection = () => {
         >
           <div className="relative rounded-2xl overflow-hidden border border-gray-800 shadow-xl">
             <img
-              alt="John Doe portrait"
+              alt="Ahmed Naveed Sayed portrait"
               className="w-full h-[500px] object-cover"
               src={homeimg}
             />
