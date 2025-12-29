@@ -51,14 +51,14 @@ const Footer = () => {
             </ul>
           </div>
           
-          <div>
+          <div className="overflow-hidden">
             <h4 className="font-semibold text-gray-900 dark:text-gray-100 mb-4">Contact</h4>
-            <ul className="space-y-2">
-              <li className="text-gray-600 dark:text-gray-400">
+            <ul className="space-y-2 text-sm">
+              <li className="text-gray-600 dark:text-gray-400 ">
                 naveedsayed88@gmail.com
               </li>
               <li className="text-gray-600 dark:text-gray-400">
-                +91-9611653160
+                +91-9611***160
               </li>
               <li className="text-gray-600 dark:text-gray-400">
                 Hubli, Karnataka, India
@@ -72,9 +72,10 @@ const Footer = () => {
             © {currentYear} Ahmed Naveed Sayed. All rights reserved.
           </p>
           <div className="mt-4 md:mt-0 text-sm text-gray-600 dark:text-gray-400">
-            <a href="#" className="hover:text-primary transition-colors">Privacy Policy</a>
+            {/* <a href="#" className="hover:text-primary transition-colors">Privacy Policy</a>
             <span className="mx-2">•</span>
-            <a href="#" className="hover:text-primary transition-colors">Terms of Service</a>
+            <a href="#" className="hover:text-primary transition-colors">Terms of Service</a> */}
+            <h6 className="text-gray-600 dark:text-gray-400 text-sm">Made with 🖤 by Naveed</h6>
           </div>
         </div>
       </div>

@@ -5,6 +5,7 @@ import { Calendar, MapPin, Briefcase, GraduationCap, Award, Phone, Mail } from '
 import { Button } from '@/components/ui/button';
 import SkillsSection from '@/components/SkillsSection';
 import ContactCTA from '@/components/ContactCTA';
+import Image from '../../public/Potrait.jpg';
 
 const About = () => {
   const experiences = [
@@ -82,7 +83,7 @@ const About = () => {
                 <img  
                   alt="Ahmed Naveed Sayed profile" 
                   className="w-full h-auto"
-                 src="https://images.unsplash.com/photo-1507238691740-187a5b1d37b8" />
+                 src={Image} />
               </div>
             </div>
             
@@ -101,7 +102,7 @@ const About = () => {
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-6">
                 <div className="flex items-center">
                   <Phone size={18} className="text-primary mr-2" />
-                  <span>+91-9611653160</span>
+                  <span>+91-9611***160</span>
                 </div>
                 <div className="flex items-center">
                   <Mail size={18} className="text-primary mr-2" />
@@ -115,6 +116,9 @@ const About = () => {
                 </Button>
                 <Button variant="outline" asChild>
                   <a href="mailto:naveedsayed88@gmail.com" target="_blank" rel="noopener noreferrer">Email</a>
+                </Button>
+                <Button variant="outline" asChild>
+                  <a href="https://github.com/NaV-33D" target="_blank" rel="noopener noreferrer">GitHub</a>
                 </Button>
               </div>
             </div>

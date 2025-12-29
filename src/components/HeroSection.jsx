@@ -45,13 +45,16 @@ const HeroSection = () => {
               />
             </Button>
 
-            <Button variant="outline" size="lg" className="group">
-              Download CV
-              <Download
-                size={16}
-                className="ml-2 group-hover:translate-y-1 transition-transform"
-              />
-            </Button>
+            <a href="/Naveedresume.pdf" download>
+  <Button variant="outline" size="lg" className="group">
+    Download CV
+    <Download
+      size={16}
+      className="ml-2 group-hover:translate-y-1 transition-transform"
+    />
+  </Button>
+</a>
+
           </div>
         </motion.div>
 
