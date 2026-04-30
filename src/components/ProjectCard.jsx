@@ -6,6 +6,8 @@ import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle }
 import { Button } from '@/components/ui/button';
 
 const ProjectCard = ({ project }) => {
+  const fallbackImage = 'https://images.unsplash.com/photo-1608403810239-ac22e2c3bac7';
+
   return (
     <motion.div
       initial={{ opacity: 0, y: 20 }}
@@ -17,10 +19,10 @@ const ProjectCard = ({ project }) => {
       <Card className="overflow-hidden card-hover h-full flex flex-col">
         <div className="relative aspect-video overflow-hidden">
           <img  
-            src={project.image} 
+            src={project.image || fallbackImage} 
             alt={project.title} 
             className="w-full h-full object-cover transition-transform duration-500 hover:scale-105"
-           src="https://images.unsplash.com/photo-1608403810239-ac22e2c3bac7" />
+          />
         </div>
         <CardHeader>
           <CardTitle>{project.title}</CardTitle>
