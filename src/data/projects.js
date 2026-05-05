@@ -1,6 +1,33 @@
 
 export const projectsData = [
   {
+    title: "Space Station Website",
+    category: "Web Development",
+    description: "Built and deployed a responsive website with a modern UI focused on clear content structure, smooth interactions, and reliable performance across devices.",
+    technologies: ["React", "Vite", "Tailwind CSS"],
+     image: "/Space_station.png",
+    github: "https://github.com/username/space-station-website",
+    demo: "https://space-station-website-261a8.web.app"
+  },
+  {
+    title: "Riyaz-ul-Uloom Official Website",
+    category: "Web Development",
+    description: "Designed and developed a scalable multi-page institutional website with structured sections including Home, About, Speeches, Blog, AI Videos, Books, Activities, and Contact. Implemented mobile-first responsive design with Tailwind CSS, integrated REST APIs for dynamic content modules, and engineered i18n support for multilingual delivery while improving load performance and engagement.",
+    technologies: ["React.js", "Tailwind CSS", "REST API", "i18n"],
+    image: "/riyaz-ul-uloom.png",
+    github: "https://github.com/username/riyaz-ul-uloom-website",
+    demo: "https://riyazululoom.org"
+  },
+  {
+    title: "Rifah Connect Admin Panel",
+    category: "Web Application",
+    description: "Designed and developed a full-featured admin dashboard for an invite-only professional networking platform. Built a scalable component-driven UI with sidebar navigation, integrated REST APIs for user management, approvals, analytics, and operations, and delivered a pixel-perfect mobile-responsive interface to improve visibility and operational control.",
+    technologies: ["React.js", "Tailwind CSS", "REST API"],
+    image: "/rifah-dash.png",
+    github: "https://github.com/username/rifah-connect-admin-panel",
+    demo: "https://admin.rifahconnect.com"
+  },
+  {
     title: "AI-powered Learning Platform",
     category: "Web Development",
     description: "Developed a personalized learning platform using Next.js, Clerk (authentication), Drizzle ORM, and Neon PostgreSQL. Integrated Gemini API for generating dynamic educational content and summaries, and YouTube Data API to fetch relevant video resources. The platform supports user-specific dashboards, scalable backend architecture, and secure access management for a seamless AI-enhanced learning experience.",
@@ -90,22 +117,5 @@ export const projectsData = [
     github: "https://github.com/username/machaliwala",
     demo: "https://machaliwala.com"
   },
-  {
-    title: "Riyaz-ul-Uloom Official Website",
-    category: "Web Development",
-    description: "Designed and developed a scalable multi-page institutional website with structured sections including Home, About, Speeches, Blog, AI Videos, Books, Activities, and Contact. Implemented mobile-first responsive design with Tailwind CSS, integrated REST APIs for dynamic content modules, and engineered i18n support for multilingual delivery while improving load performance and engagement.",
-    technologies: ["React.js", "Tailwind CSS", "REST API", "i18n"],
-    image: "/riyaz-ul-uloom.png",
-    github: "https://github.com/username/riyaz-ul-uloom-website",
-    demo: "https://riyazululoom.org"
-  },
-  {
-    title: "Rifah Connect Admin Panel",
-    category: "Web Application",
-    description: "Designed and developed a full-featured admin dashboard for an invite-only professional networking platform. Built a scalable component-driven UI with sidebar navigation, integrated REST APIs for user management, approvals, analytics, and operations, and delivered a pixel-perfect mobile-responsive interface to improve visibility and operational control.",
-    technologies: ["React.js", "Tailwind CSS", "REST API"],
-    image: "/rifah-dash.png",
-    github: "https://github.com/username/rifah-connect-admin-panel",
-    demo: "https://admin.rifahconnect.com"
-  }
+  
 ];
