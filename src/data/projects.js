@@ -1,4 +1,6 @@
 
+import pathanLifeImage from "../assets/PathanLife.png";
+
 export const projectsData = [
   {
     title: "Space Station Website",
@@ -27,6 +29,16 @@ export const projectsData = [
     github: "https://github.com/username/rifah-connect-admin-panel",
     demo: "https://admin.rifahconnect.com"
   },
+  {
+  title: "PathanLife - Luxury Ethnic Fashion Platform",
+  category: "Web Development",
+  description:
+    "Developed a modern luxury fashion website focused on traditional Islamic and Pathani wear including kurtas, jubbas, and custom-tailored outfits. Designed a premium responsive UI with elegant layouts, smooth animations, fashion galleries, tailoring sections, and interactive measurement forms to deliver a high-end ethnic clothing brand experience.",
+  technologies: ["React.js", "Tailwind CSS", "Framer Motion"],
+  image: pathanLifeImage,
+  github: "https://github.com/NaV-33D/pathan-life",
+  demo: "https://pathanlife-fashion.vercel.app/"
+},
   {
     title: "AI-powered Learning Platform",
     category: "Web Development",
